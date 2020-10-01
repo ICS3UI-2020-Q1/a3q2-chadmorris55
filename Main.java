@@ -18,7 +18,7 @@ public class Main {
     System.out.println("Does the animal have feathers?");
     String feathers = input.nextLine();
     if (feathers.equals ("yes")){
-       System.out.println("Does the animal swim");
+       System.out.println("Does the animal swim?");
        String swims = input.nextLine();
        if (swims.equals ("yes")){
          System.out.println("This is a duck");
@@ -27,7 +27,7 @@ public class Main {
       }
 
     }else if(feathers.equals ("no")){
-       System.out.println("Does the animal  have legs");
+       System.out.println("Does the animal  have legs?");
        String legs = input.nextLine();
        if (legs.equals("yes")){
          System.out.println("This is a lizard");
@@ -41,4 +41,3 @@ public class Main {
 
   }
 }
-
